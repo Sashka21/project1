@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <ctime>
 #include <cmath>
 #include <fstream>
@@ -308,16 +309,16 @@ int main()
         insert_sort(arr, n);
 
         cout << endl << "n = " << n;
-        fout << endl << "n = " << n;
+        //fout << endl << "n = " << n;
 
         end_clock = clock();
         result_time = (end_clock - start_clock) / CLOCKS_PER_SEC;
 
         cout << "\tTime: " << result_time;
-        fout << "\tTime: " << result_time;
+        //fout << "\tTime: " << result_time;
 
         cout << endl;
-        fout << endl;
+        //fout << endl;
         //wypisz_arr(arr, n);
     }
 
